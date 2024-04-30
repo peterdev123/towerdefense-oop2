@@ -16,4 +16,5 @@ This project is not just an academic requirement; it is a significant opportunit
 
 ## Development Tools:
 **IntelliJ IDEA:** All coding, testing, and debugging activities will be conducted in IntelliJ IDEA, an integrated development environment that enhances our productivity with its powerful code assistance, navigation features, and built-in tools and integrations.
+
 **JavaFX:** We will employ JavaFX as the framework for building the graphical user interface (GUI) of the game. JavaFX provides a rich set of features that allow for the creation of high-quality, responsive GUI applications.
