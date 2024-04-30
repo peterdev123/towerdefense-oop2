@@ -15,5 +15,5 @@ Our project is inspired by the strategic and engaging gameplay found in many pop
 This project is not just an academic requirement; it is a significant opportunity to deepen our understanding of software development in a real-world context. By tackling this project, we intend to hone our skills in coding, design, and teamwork, thereby preparing us for professional challenges in the field of software engineering.
 
 ## Development Tools:
-IntelliJ IDEA: All coding, testing, and debugging activities will be conducted in IntelliJ IDEA, an integrated development environment that enhances our productivity with its powerful code assistance, navigation features, and built-in tools and integrations.
-JavaFX: We will employ JavaFX as the framework for building the graphical user interface (GUI) of the game. JavaFX provides a rich set of features that allow for the creation of high-quality, responsive GUI applications.
+**IntelliJ IDEA:** All coding, testing, and debugging activities will be conducted in IntelliJ IDEA, an integrated development environment that enhances our productivity with its powerful code assistance, navigation features, and built-in tools and integrations.
+**JavaFX:** We will employ JavaFX as the framework for building the graphical user interface (GUI) of the game. JavaFX provides a rich set of features that allow for the creation of high-quality, responsive GUI applications.
