@@ -2,7 +2,8 @@
 
 As part of our Object-Oriented Programming 2 course, we have embarked on an ambitious project to design and implement a Tower Defense game. This initiative is directed by Sir Jay Vince Serato and is a collaborative effort based on team agreements that emphasize the application of core OOP concepts.
 
-Project Overview: Our project is inspired by the strategic and engaging gameplay found in many popular Tower Defense games, which are known for their straightforward mechanisms and rules. By choosing this genre, we aim to develop a comprehensive understanding and practical expertise in several key areas:
+## Project Overview: 
+Our project is inspired by the strategic and engaging gameplay found in many popular Tower Defense games, which are known for their straightforward mechanisms and rules. By choosing this genre, we aim to develop a comprehensive understanding and practical expertise in several key areas:
 
 Advanced OOP Concepts: Ensuring a solid application of object-oriented principles such as inheritance, encapsulation, polymorphism, and abstraction.
 
