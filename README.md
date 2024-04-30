@@ -5,9 +5,9 @@ As part of our Object-Oriented Programming 2 course, we have embarked on an ambi
 ## Project Overview: 
 Our project is inspired by the strategic and engaging gameplay found in many popular Tower Defense games, which are known for their straightforward mechanisms and rules. By choosing this genre, we aim to develop a comprehensive understanding and practical expertise in several key areas:
 
-Advanced OOP Concepts: Ensuring a solid application of object-oriented principles such as inheritance, encapsulation, polymorphism, and abstraction.
+**Advanced OOP Concepts:** Ensuring a solid application of object-oriented principles such as inheritance, encapsulation, polymorphism, and abstraction.
 
-Multithreading: Implementing multithreading to manage the simultaneous execution of complex interactions within the game.
+**Multithreading:** Implementing multithreading to manage the simultaneous execution of complex interactions within the game.
 
 UI Design: Crafting intuitive and aesthetically pleasing user interfaces that enhance player interaction and game immersion.
 
