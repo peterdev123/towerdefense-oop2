@@ -1,4 +1,4 @@
-##Object-Oriented Programming 2 Project: Tower Defense Game
+#Object-Oriented Programming 2 Project: Tower Defense Game
 #Instructor: Sir Jay Vince Serato
 
 As part of our Object-Oriented Programming 2 course, we have embarked on an ambitious project to design and implement a Tower Defense game. This initiative is directed by Sir Jay Vince Serato and is a collaborative effort based on team agreements that emphasize the application of core OOP concepts.
