@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="startingPane" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.StartingScreenController">
+    <Label fx:id="welcomeText" layoutX="609.0" layoutY="292.0" text="Welcome to Starting Screen" />
+    <Button fx:id="startButton" layoutX="656.0" layoutY="363.0" onAction="#onHelloButtonClick" prefHeight="42.0" prefWidth="54.0" text="Start" />
+</AnchorPane>

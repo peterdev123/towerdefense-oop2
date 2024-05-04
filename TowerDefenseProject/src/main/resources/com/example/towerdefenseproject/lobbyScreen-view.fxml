@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="lobbyScreenId" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #123412;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.LobbyScreenController">
+   <children>
+      <Label layoutX="639.0" layoutY="270.0" text="This is the Lobby" />
+      <Button layoutX="657.0" layoutY="372.0" mnemonicParsing="false" onAction="#onSwitchClick" text="Button" />
+   </children>
+</AnchorPane>
