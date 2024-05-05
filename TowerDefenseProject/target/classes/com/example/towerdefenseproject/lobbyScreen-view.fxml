@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="lobbyScreenId" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #123412;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.LobbyScreenController">
+<AnchorPane fx:id="lobbyScreenId" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.LobbyScreenController">
    <children>
-      <Label layoutX="639.0" layoutY="270.0" text="This is the Lobby" />
-      <Button layoutX="657.0" layoutY="372.0" mnemonicParsing="false" onAction="#onSwitchClick" text="Button" />
+      <HBox alignment="CENTER" spacing="50" prefHeight="768.0" prefWidth="1366.0">
+         <children>
+            <Label text="TITLE HERE!" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Georgia Bold Italic" size="40.0" />
+               </font>
+               <padding>
+                  <Insets top="50" bottom="50" left="20" right="20" />
+               </padding>
+            </Label>
+            <VBox alignment="CENTER" spacing="20" prefHeight="768.0" prefWidth="590.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onSwitchClick" prefHeight="61.0" prefWidth="400.0" text="Button 1" style="-fx-font-size: 20px;">
+                     <VBox.margin>
+                        <Insets top="50" bottom="10"/>
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onSwitchClick" prefHeight="55.0" prefWidth="400.0" text="Button 2" style="-fx-font-size: 20px;">
+                     <VBox.margin>
+                        <Insets top="10" bottom="10"/>
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onSwitchClick" prefHeight="55.0" prefWidth="400.0" text="Button 3" style="-fx-font-size: 20px;">
+                     <VBox.margin>
+                        <Insets top="10" bottom="10"/>
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onSwitchClick" prefHeight="55.0" prefWidth="400.0" text="Button 4" style="-fx-font-size: 20px;">
+                     <VBox.margin>
+                        <Insets top="10" bottom="50"/>
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
    </children>
 </AnchorPane>

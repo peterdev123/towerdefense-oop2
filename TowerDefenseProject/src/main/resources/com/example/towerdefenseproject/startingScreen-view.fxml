@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane fx:id="startingPane" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.StartingScreenController">
-    <Label fx:id="welcomeText" layoutX="609.0" layoutY="292.0" text="Welcome to Starting Screen" />
-    <Button fx:id="startButton" layoutX="656.0" layoutY="363.0" onAction="#onHelloButtonClick" prefHeight="42.0" prefWidth="54.0" text="Start" />
+   <VBox alignment="CENTER" prefHeight="768.0" prefWidth="1366.0">
+      <children>
+          <Label fx:id="welcomeText" text="TITLE HERE!">
+            <font>
+               <Font name="Georgia Bold Italic" size="43.0" />
+            </font>
+            <VBox.margin>
+               <Insets bottom="450.0" />
+            </VBox.margin>
+         </Label>
+          <Button fx:id="startButton" onAction="#onHelloButtonClick" prefHeight="42.0" prefWidth="300.0" text="START">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <font>
+               <Font name="Georgia Bold" size="25.0" />
+            </font>
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+         </Button>
+      </children>
+   </VBox>
 </AnchorPane>
