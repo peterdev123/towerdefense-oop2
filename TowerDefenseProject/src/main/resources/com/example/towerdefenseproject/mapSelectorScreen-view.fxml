@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.MapSelectorScreenController">
+   <children>
+      <BorderPane prefHeight="768.0" prefWidth="1366.0">
+         <bottom>
+            <Button mnemonicParsing="false" text="TUTORIAL" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="75.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font></Button>
+         </bottom>
+         <top>
+            <Label alignment="CENTER" text="TEXT HERE" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Georgia Bold Italic" size="60.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="75.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <left>
+            <ImageView fitHeight="400.0" fitWidth="400.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../../Images/SampleImage.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets left="50.0" />
+               </BorderPane.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </left>
+         <center>
+            <ImageView fitHeight="400.0" fitWidth="400.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../../Images/SampleImage.png" />
+               </image>
+            </ImageView>
+         </center>
+         <right>
+            <ImageView fitHeight="400.0" fitWidth="400.0" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../../../Images/SampleImage.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets right="50.0" />
+               </BorderPane.margin>
+            </ImageView>
+         </right></BorderPane>
+   </children>
+</AnchorPane>

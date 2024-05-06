@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:id="startingPane" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.StartingScreenController">
+<AnchorPane fx:id="startingPane" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.towerdefenseproject.Controller.StartingScreenController">
    <VBox alignment="CENTER" prefHeight="768.0" prefWidth="1366.0">
       <children>
           <Label fx:id="welcomeText" text="TITLE HERE!">

@@ -16,4 +16,9 @@ public class LobbyScreenController {
     protected void onSwitchClick() throws IOException {
         new SceneSwitch(lobbyScreenId, "startingScreen-view.fxml");
     }
+
+    @FXML
+    protected void onPlayClick() throws IOException {
+        new SceneSwitch(lobbyScreenId, "mapSelectorScreen-view.fxml");
+    }
 }
