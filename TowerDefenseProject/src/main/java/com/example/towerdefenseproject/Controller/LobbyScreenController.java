@@ -9,7 +9,6 @@ import javafx.scene.layout.AnchorPane;
 import java.io.IOException;
 
 public class LobbyScreenController {
-    public Button startButton;
     public AnchorPane lobbyScreenId;
 
     @FXML

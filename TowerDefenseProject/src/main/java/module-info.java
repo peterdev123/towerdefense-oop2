@@ -1,6 +1,7 @@
 module com.example.towerdefenseproject {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens com.example.towerdefenseproject to javafx.fxml;
